@@ -3,14 +3,18 @@
   <name>chainercv</name>
   <version>0.0.1</version>
   <description>
-    ChainerCV with Catkin
+    ChainerCV ROS Interface
   </description>
-  <maintainer email="asmodehn@gmail.com">AlexV</maintainer>
+  <maintainer email="yuyuniitani@gmail.com">Yusuke Niitani</maintainer>
   <author>Yusuke Niitani</author>
   <license>MIT</license>
   <url type="repository">https://github.com/yuyu2172/chainercv-ros.git</url>
 
   <buildtool_depend>catkin</buildtool_depend>
-  <build_depend version_gte="0.1.16">catkin_pip</build_depend>
+  <build_depend>catkin_virtualenv</build_depend>
+
+  <export>
+    <pip_requirements>requirements.txt</pip_requirements>
+  </export>
 
 </package>

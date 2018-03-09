@@ -1,11 +1,21 @@
 cmake_minimum_required(VERSION 2.8.12)
 project(chainercv)
 
-find_package(catkin REQUIRED COMPONENTS catkin_pip)
+# Make sure to find-package `catkin_virtualenv`
+find_package(catkin REQUIRED catkin_virtualenv)
 
-# defining current package as a package that should be managed by pip (not catkin - even though we make it usable with workspaces)
-catkin_pip_package_virtualenv(${PROJECT_NAME})
-# CAREFUL : all projects for test here will share the same workspace. pip might have conflicts...
+# Must be called before catkin_generate_virtualenv
+catkin_package()
 
-# # We need to install the project pip dependencies in the devel workspace being created
-# catkin_pip_requirements(${CMAKE_CURRENT_SOURCE_DIR}/requirements.txt)
+# Generate the virtualenv, optionally with python 3 as the default interpreter:
+catkin_generate_virtualenv()
+# catkin_generate_virtualenv(PYTHON3)
+
+# Make sure your python executables are installed using `catkin_install_python`:
+catkin_install_python(
+  PROGRAMS
+  scripts/ssd_demo.py
+  DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION})
+
+install(FILES requirements.txt
+  DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION})
