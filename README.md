@@ -1,8 +1,8 @@
-# ChainerCV-ROS
+# ROS-ChainerCV
 
-The name of this project is **ChainerCV-ROS**.
+This is ROS wrapper of ChainerCV using `catkin_virtualenv`.
 
-Depends on https://github.com/locusrobotics/catkin_virtualenv
+This project depends on [locusrobotics/catkin_virtualenv](https://github.com/locusrobotics/catkin_virtualenv).
 
 ## Build 
 
@@ -22,5 +22,5 @@ Please build this using the standard build procedure of ROS.
 ```bash
 # after build
 source devel/setup.bash
-rosrun chainercv python ssd_demo.py image.jpg
+rosrun chainercv ssd_demo.py image.jpg
 ```
