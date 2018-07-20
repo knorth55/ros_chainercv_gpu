@@ -5,10 +5,12 @@
   <description>
     ChainerCV ROS Interface
   </description>
-  <maintainer email="yuyuniitani@gmail.com">Yusuke Niitani</maintainer>
+  <maintainer email="shingogo.5511@gmail.com">Shingo Kitagawa</maintainer>
+  <author>Shingo Kitagawa</author>
   <author>Yusuke Niitani</author>
+  <author>Kei Okada</author>
   <license>MIT</license>
-  <url type="repository">https://github.com/yuyu2172/chainercv-ros.git</url>
+  <url type="repository">https://github.com/knorth55/catkin_virtualenv_chainercv</url>
 
   <buildtool_depend>catkin</buildtool_depend>
   <build_depend>catkin_virtualenv</build_depend>
