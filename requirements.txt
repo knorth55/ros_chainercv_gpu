@@ -1,1 +1,4 @@
-chainercv>=0.8
+chainercv>=0.9
+cython
+matplotlib
+scipy
