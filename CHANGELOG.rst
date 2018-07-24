@@ -2,8 +2,8 @@
 Changelog for package chainercv
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.1 (2018-07-24)
+------------------
 * add additional dependency
 * update README.md and package.xml
 * update author and maintainer
