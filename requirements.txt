@@ -1,4 +1,5 @@
 chainercv>=0.9
+cupy
 cython
 matplotlib
 scipy

@@ -13,6 +13,7 @@
   <url type="repository">https://github.com/knorth55/ros_chainercv</url>
 
   <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>nvidia-cuda</build_depend>
   <build_depend>catkin_virtualenv</build_depend>
 
   <export>
