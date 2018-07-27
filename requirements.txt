@@ -1,5 +1,3 @@
-chainercv>=0.9
+chainer>=4.0
+chainercv>=0.10
 cupy
-cython
-matplotlib
-scipy
