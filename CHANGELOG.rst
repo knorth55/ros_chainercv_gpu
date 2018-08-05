@@ -2,8 +2,8 @@
 Changelog for package chainercv
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.3 (2018-08-05)
+------------------
 * update cupy version
 * update build_depend and requirements.txt
 * Contributors: Shingo Kitagawa
