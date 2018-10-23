@@ -2,8 +2,8 @@
 Changelog for package chainercv
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.4 (2018-10-23)
+------------------
 * update package name
 * Contributors: Shingo Kitagawa
 
