@@ -1,6 +1,6 @@
-# ROS-ChainerCV
+# ROS-ChainerCV-GPU
 
-This is ROS wrapper of ChainerCV using `catkin_virtualenv`.
+This is ROS wrapper of ChainerCV using `catkin_virtualenv` with GPU dependencies.
 
 This project depends on [locusrobotics/catkin_virtualenv](https://github.com/locusrobotics/catkin_virtualenv).
 
@@ -10,7 +10,7 @@ This project depends on [locusrobotics/catkin_virtualenv](https://github.com/loc
 mkdir catkin_ws/src -p
 cd catkin_ws/src
 git clone https://github.com/locusrobotics/catkin_virtualenv.git
-git clone https://github.com/knorth55/catkin_pip_chainercv.git
+git clone https://github.com/knorth55/ros_chainercv_gpu.git
 cd ..
 catkin build
 ```
@@ -22,5 +22,5 @@ Please build this using the standard build procedure of ROS.
 ```bash
 # after build
 source devel/setup.bash
-rosrun chainercv ssd_demo.py image.jpg
+rosrun chainercv_gpu ssd_demo.py image.jpg
 ```

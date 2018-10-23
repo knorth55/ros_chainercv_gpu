@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.12)
-project(chainercv)
+project(chainercv_gpu)
 
 # Make sure to find-package `catkin_virtualenv`
 find_package(catkin REQUIRED catkin_virtualenv)

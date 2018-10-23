@@ -1,16 +1,16 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>chainercv</name>
+  <name>chainercv_gpu</name>
   <version>0.0.3</version>
   <description>
-    ChainerCV ROS Wrapper
+    ChainerCV ROS Wrapper with GPU dependencies
   </description>
   <maintainer email="shingogo.5511@gmail.com">Shingo Kitagawa</maintainer>
   <author>Shingo Kitagawa</author>
   <author>Yusuke Niitani</author>
   <author>Kei Okada</author>
   <license>MIT</license>
-  <url type="repository">https://github.com/knorth55/ros_chainercv</url>
+  <url type="repository">https://github.com/knorth55/ros_chainercv_gpu</url>
 
   <buildtool_depend>catkin</buildtool_depend>
   <build_depend>cython</build_depend>
