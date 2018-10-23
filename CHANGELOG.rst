@@ -2,6 +2,11 @@
 Changelog for package chainercv
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* update package name
+* Contributors: Shingo Kitagawa
+
 0.0.3 (2018-08-05)
 ------------------
 * update cupy version
